@@ -3,10 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+// import AnimatedPointer from "./components/CursorAnimation";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <AnimatedPointer /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
